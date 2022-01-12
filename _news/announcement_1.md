@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-09-22
 inline: true
 ---
 
-A simple inline announcement.
+I am thankfully to receive the best student paper award from IEEE ITSC 2021.
