@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://CeZh.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ce Zhang   | Page not found</title>
+    <title>Ce Zhang   | Autonomous Vehicle Sensor Perceptual Quality Assessment</title>
     <meta name="author" content="Ce Zhang  " />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Current project (2021-) P.I. Dr. Azim Eskandarian" />
     <meta name="keywords" content="Autonomous Vehicle, Machine Learning/Deep Learning, Robotics" />
 
 
@@ -31,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://cezh.github.io/404.html">
+    <link rel="canonical" href="https://cezh.github.io/projects/4_project/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -92,12 +92,143 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Autonomous Vehicle Sensor Perceptual Quality Assessment</h1>
+            <p class="post-description">Current project (2021-) P.I. Dr. Azim Eskandarian</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://CeZh.github.io/">here</a>.</p>
+            <p>Perception is one the most fundamental but most important step for autonomous vehicle (AV). Few studies have been conducted for AV surrounding driving environment complexity and sensor perceptual quality. In this project, we studies the evalution method about driving environment complexity and sensor perceptual quality. Then, we developed deep learning-based algorithms to predict both the driving environment complexity and sensor perceptual quality factors.</p>
+
+<hr>
+<p>Autonomous Vehicle Driving Environment Complexity Perception</p>
+
+<p>paper: Attention-based Neural Network for Driving Environment Complexity Perception</p>
+
+<p>Environment perception is crucial for autonomous vehicle (AV) safety. Most  existing  AV  perception  algorithms havenot  studiedthe surrounding  environment complexity and failed to include the environment complexity parameter. In this project, we propose a novel attention-based neural network model to predict thecomplexity level of thesurrounding driving environment.</p>
+
+<div class="row">
+    <div class="col-sm mt-12 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/project4_background-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/project4_background-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/project4_background-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/project4_background.jpg" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Proposed perception method
+</div>
+
+<p>The image is processed by a heat map generation algorithm</p>
+<div class="row">
+    <div class="col-sm mt-12 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/heat_results-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/heat_results-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/heat_results-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/heat_results.jpg" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-12 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/psuedocode-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/psuedocode-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/psuedocode-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/psuedocode.png" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Proposed Heat Map Generation Algorithm
+</div>
+
+<p>The surrounding environment complexity label is generated through subjective labeling.</p>
+<div class="row">
+    <div class="col-sm mt-12 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/Label_Creation-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/Label_Creation-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/Label_Creation-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/Label_Creation.jpg" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Environment Complexity Label Generation for the BDD100k Dataset
+</div>
+<p>An attention network is devloped to predict the surrounding environment complexity label</p>
+
+<div class="row">
+    <div class="col-sm mt-12 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/propose_network-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/propose_network-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/propose_network-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/propose_network.jpg" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Attention-based Neural Network Architecture
+</div>
+
+<p>The network classification accuracy achieved over 90%</p>
+<div class="row">
+    <div class="col-sm mt-12 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/results-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/results-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/results-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/results.jpg" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Attention-based Neural Network Classification Accuracy Results
+</div>
+
+<hr>
+<p>Our new research about sensor perceptual quality is about to be published soon! The future algorithms are going to be open-source in the future. Welcome to visit after the publication!</p>
+
 
           </article>
 
